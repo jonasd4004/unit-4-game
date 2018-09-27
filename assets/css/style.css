@@ -1,0 +1,76 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header {
+    border-style: dotted;
+    background: orange;
+    /* border-width: 100%; */
+    margin: 32px;
+    padding: 0px;
+    
+}
+
+.logo {
+    background-color: orange;
+    color: teal;
+    text-align: center;
+}
+
+.container1 {
+    border: 1px solid gray;
+    background-color: gray;
+    margin-right: 500px;
+    
+}
+
+.instructions {
+    text-align: left;
+    color: aquamarine;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container2 {
+    display: inline-block;
+    
+}
+
+.random-number-box {
+    border: 2px solid gray;
+    margin-top: 5px;
+    background-color: turquoise;
+    padding: 5px 75px 56px 0;
+}
+
+.wins-losses-box {
+    display: inline-block;
+    border: 2px solid gray;
+    background-color: yellowgreen;
+    padding: 0px 84px 13px 0;
+    margin: 5px;
+}
+
+.row {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.total-score-box {
+    border: 2px solid gray;
+    display: inline-block;
+    background-color: teal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+
+}
+
+.score-number-box {
+    border: 2px solid gray;
+    display: inline-block;
+    background-color: teal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
